@@ -4,7 +4,7 @@
 
 #File uploaded is a text file and if needs to be comiled please save it as PokeMon.java
 
-#compilation and running can be done as usual.
+#compilation and running can be done as usual.Please provide inputs while running. If using online compilers remove PUBLIC from 'public class pokemon'.
 
 #PROGRAM DESCRIPTION:
 
@@ -23,3 +23,5 @@ For example:
     Charmander              5$
   
 So, A program is written in such a way that all the test cases are verified based on different inputs.
+
+
