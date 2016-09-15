@@ -6,6 +6,7 @@ public class PokeMon
     static float SquirtleCost = 5.0f;
     static float CharmanderCost = 5.0f;
     public static float amountAfterDiscount(float totalAmount, int toyCnt)
+    //Discount calculation based on number of toys and their price
     {
         if(toyCnt==3)
         {
@@ -28,6 +29,7 @@ public class PokeMon
         int CharmanderCnt = sc.nextInt();
         float totalAmount = 0.0f;
         while (pikachuCnt>0||SquirtleCnt>0||CharmanderCnt>0)
+        //Loop through different scenarios for calculation of total cost of toys based on discount if applied
         {
             float transactionCost = 0.0f;
             int toyCnt = 0;
